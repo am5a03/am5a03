@@ -24,7 +24,21 @@
       </div>
       <div id="contacts">
         <ul>
-          
+          <li>
+            <a href="https://www.facebook.com/dnomyar.tc" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/am5a03" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/am5a03" target="_blank">Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/raymond-chan-7467ab31" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a href="">Email</a>
+          </li>
         </ul>
       </div>
     </main>
