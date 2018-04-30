@@ -2,18 +2,31 @@
   <div id="app">
     <nav id="nav">
       <ul class="nav-default">
-        <li>Home</li>
-        <li>About me</li>
-        <li>Contacts</li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About me</a>
+        </li>
+        <li>
+          <a href="#contacts">Contacts</a>
+        </li>
       </ul>
     </nav>
     <main>
-      <h1>
-        Hi, this is Raymond
-      </h1>
-      <p>
-        I am a fullstack developer, with solid experience in Android development.
-      </p>
+      <div id="about">
+        <h1>
+          Hi, this is Raymond
+        </h1>
+        <p>
+          I am a fullstack developer, with solid experience in Android development.
+        </p>
+      </div>
+      <div id="contacts">
+        <ul>
+          
+        </ul>
+      </div>
     </main>
   </div>
 </template>
@@ -34,11 +47,11 @@ export default {
   margin-top: 60px;
 } */
 
-h1 {
+/* h1 {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 10em;
   margin: 0;
   padding: 0;
-}
+} */
 </style>
