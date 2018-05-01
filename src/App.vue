@@ -15,7 +15,10 @@
             </li>
           </ul>
         </nav>
-        <h1>Hi, this is Raymond</h1>
+        <div id="headline">
+          <h1>Hi, this is Raymond</h1>
+          <h2>A fullstack developer based in Hong Kong</h2>
+        </div>
       </div>
       <div id="about" class="page">
         <h2>About me</h2>
@@ -126,6 +129,14 @@ p.description {
   color: #666;
 }
 
+@media screen and (max-width: 600px) {
+  p.description {
+    max-width: 100%;
+    text-align: justify;
+    color: #666;
+  }  
+}
+
 #main {
   background: url('./images/bg1.jpg');
   background-repeat: no-repeat;
@@ -134,9 +145,16 @@ p.description {
 }
 
 #main h1 {
-  position: absolute;
-  top: 50%;
   color: #fff;
+}
+
+#main h2 {
+  color: #ddd;
+}
+
+#headline {
+  position: absolute;
+  top: 40%;
 }
 
 </style>
