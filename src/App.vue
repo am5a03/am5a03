@@ -1,26 +1,31 @@
 <template>
   <div id="app">
-    <nav id="nav">
-      <ul class="nav-default">
-        <li>
-          <a href="#home">Home</a>
-        </li>
-        <li>
-          <a href="#about">About me</a>
-        </li>
-        <li>
-          <a href="#contacts">Contacts</a>
-        </li>
-      </ul>
-    </nav>
     <main>
       <div id="main" class="page">
+        <nav id="nav">
+          <ul class="nav-default">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a href="#contacts">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <h1>Hi, this is Raymond</h1>
       </div>
       <div id="about" class="page">
         <h2>About me</h2>
-        <p>I am a fullstack developer based in Hong Kong, with solid experience in Android development.</p>
-        <p>I have been working @9GAG for several years, having hands on experiences with various developments and frameworks. Including API design, system architecture design and currently focusing on Android development.</p>
+        <p class="description">
+          I am a fullstack developer based in Hong Kong, with solid experience in Android development. I have been working @9GAG for several years, having hands on experiences with various developments and frameworks. Including API design, system architecture design and currently focusing on Android development.
+          Below are my skills
+        </p>
+        <p class="description">
+          In my spare time, I like reading, playing computer games (Hearthstone, Overwatch, Northgard or whatever interesting) and wandering around and shooting some random photos.
+        </p>
       </div>
       <div id="contacts" class="page">
         <h2>Contacts</h2>
@@ -73,25 +78,65 @@ export default {
 body {
   margin: 0 auto;
   font-family: 'Questrial', sans-serif;
+  font-size: 16px;
+  background: #f6f6f6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #111
 }
 
 .page {
   height: 100vh;
+  padding: 0 1.5em 0 1.5em;
+}
+
+.divider {
+  border: 1px solid #fff;
 }
 
 nav {
-  background-color: #333;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
   overflow: hidden;
-}
-
-nav ul {
-  margin: 0;
 }
 
 nav ul > li {
   float: left;
   display: block;
-  padding: 16px 16px;
+  padding: 1.5em 1.5em;
+}
+
+li a {
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 2;
+}
+
+p.description {
+  max-width: 75%;
+  text-align: justify;
+  color: #666;
+}
+
+#main {
+  background: url('./images/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#main h1 {
+  position: absolute;
+  top: 50%;
+  color: #fff;
 }
 
 </style>
