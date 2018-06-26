@@ -25,7 +25,7 @@
       <div id="about" class="page">
         <h2>About me</h2>
         <p class="description">
-          I am a fullstack developer based in Hong Kong, with solid experience in Android development. I have been working @9GAG for several years, having hands on experiences with various developments and frameworks. Including API design, system architecture design and currently focusing on Android development.
+          I am a fullstack developer based in Hong Kong, with solid experience in Android development. I have been working <a href="https://9gag.com/u/ctc2">@9GAG</a> for several years, having hands on experiences with various developments and frameworks. Including API design, system architecture design and currently focusing on Android development.
           These are the things that I have solid experience:
         </p>
         <div class="skillset">
@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 1.5em 0 1.5em;
   margin: 0 auto;
   max-width: 50em;
+  overflow-y: auto;
 }
 
 .divider {
