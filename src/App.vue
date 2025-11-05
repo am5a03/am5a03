@@ -292,7 +292,7 @@ p.description {
     max-width: 100%;
     text-align: justify;
     color: #666;
-  }  
+  }
 }
 
 #mainWrapper {
