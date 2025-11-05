@@ -5,6 +5,7 @@ import HelloWorld from '@/components/HelloWorld'
 Vue.use(Router)
 
 export default new Router({
+  base: process.env.NODE_ENV === 'production' ? '/am5a03/' : '/',
   routes: [
     {
       path: '/',
